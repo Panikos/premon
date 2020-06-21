@@ -1,0 +1,21 @@
+{
+    "appName": "premon",
+    "roleName": "pinpointLambdaRole4b71dfcc",
+    "cloudformationPolicyName": "cloudformationPolicy4b71dfcc",
+    "cloudWatchPolicyName": "cloudWatchPolicy4b71dfcc",
+    "pinpointPolicyName": "pinpointPolicy4b71dfcc",
+    "authPolicyName": "pinpoint_amplify_4b71dfcc",
+    "unauthPolicyName": "pinpoint_amplify_4b71dfcc",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

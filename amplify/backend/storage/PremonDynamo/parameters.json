@@ -1,0 +1,7 @@
+{
+    "tableName": "PremonDynamo",
+    "partitionKeyName": "ID",
+    "partitionKeyType": "N",
+    "sortKeyName": "User",
+    "sortKeyType": "S"
+}

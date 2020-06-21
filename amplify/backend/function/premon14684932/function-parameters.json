@@ -1,0 +1,32 @@
+{
+    "permissions": {
+        "api": {
+            "premon": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        },
+        "storage": {
+            "Blog:@model(appsync)": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ],
+            "Post:@model(appsync)": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ],
+            "Comment:@model(appsync)": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}
